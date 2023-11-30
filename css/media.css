@@ -1,0 +1,197 @@
+::-webkit-scrollbar {
+    width: 0;
+}
+
+@media screen and (max-width:1290px) {
+    .container {
+        transform: scale(0.9);
+    }
+    .swiper.card-swiper {
+        width: 806px;
+        /*2 карточки*/
+    }
+    .main__content img {
+        max-width: 100%;
+        height: auto;
+    }
+    .main__content .container {
+        align-items: center;
+    }
+    .about .container {
+        padding: 0px;
+    }
+    .about__cards {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .about__card {
+        margin: 40px;
+    }
+    .design__img {
+        width: 50%;
+    }
+    .design__text {
+        margin-left: 0;
+    }
+    .app__info {
+        max-width: 45%;
+    }
+    .app__image>img {
+        width: 100%;
+    }
+    .left-cup-2 {
+        width: 30%;
+        top: -50px;
+    }
+    .reviews {
+        padding-bottom: 0px;
+    }
+    h2 {
+        font-size: 54px;
+    }
+    .feedback__subtitle {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:1425px) {
+    .swiper.card-swiper {
+        transform: scale(0.9);
+    }
+}
+
+@media screen and (max-width:992px) {
+    .main__content {
+        padding: 40px 0;
+    }
+    .main__title {
+        font-size: 80px;
+        line-height: 100px;
+    }
+    .swiper.card-swiper {
+        width: 393px;
+        /*1 карточкa*/
+    }
+    .reward {
+        position: absolute;
+        right: 32%;
+        bottom: 35%;
+    }
+    .about>img {
+        width: 30%;
+    }
+    .design__img img {
+        transform: scale(0.9);
+    }
+    .design .container {
+        padding-bottom: 100px;
+    }
+    .feedback .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .feedback {
+        padding: 0;
+    }
+    .feedback__text {
+        margin-bottom: 50px;
+    }
+    .left-cup {
+        top: -5%;
+    }
+    .reviews .container {
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+    .reviews__info {
+        max-width: 454px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        margin-left: 0;
+    }
+    .mobile__visible {
+        display: flex !important;
+    }
+    .mobile__hidden {
+        display: none;
+    }
+    .footer__contact {
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .burger-menu {
+        display: inline-block;
+    }
+    .menu {
+        display: none;
+    }
+    .main__content {
+        padding: 0;
+    }
+    .main__content img {
+        max-width: 100%;
+        height: auto;
+    }
+    .main__content .container {
+        flex-direction: column-reverse;
+    }
+    .reward {
+        right: 10%;
+        bottom: 75%;
+    }
+    .footer__map {
+        width: auto;
+    }
+    .footer .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        flex-direction: column-reverse;
+    }
+    .design .container {
+        padding-bottom: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .design__img {
+        width: 100%;
+    }
+    .design .container {
+        padding-bottom: 0px;
+    }
+    .app .container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .swiper.card-swiper {
+        height: 500px;
+    }
+    .app__info {
+        max-width: 100%;
+    }
+    .footer__contact {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    input,
+    textarea {
+        max-width: 400px;
+    }
+    .swiper.reviews-swiper {
+        width: 345px;
+        height: 800px;
+    }
+    .reward {
+        right: 25%;
+        bottom: 35%;
+    }
+}
